@@ -42,3 +42,24 @@ mail_postfix=ipython.com
   * --action 这里需要跟运行方式，支持[start|stop|restart|debug]
 
   以start的方式将会运行于后台，pid将存放于`/tmp`目录下
+
+
+数据样例:
+```
+(u'Hello World ', '2015-11-16 16:40:45', 244649083, 444127002, '444127002')
+(u'[Hi] ', '2015-11-15 08:59:57', 244649083, 234443681, '444127002')
+(u'Hello World ', '2015-11-16 16:40:45', 244649083, 444127002, '444127002')
+(u'[\u56fe\u7247] ', '2015-11-15 08:19:37', 244649083, 409925631, '444127002')
+(u'\u8d77\u6765\u4e86 ', '2015-11-15 08:22:20', 244649083, 807926798, '444127002')
+```
+
+日志样例
+```
+Login(444127002) Sucess, nickname(quicksand)
+Pull message... info[quicksand,2015-11-16 16:40:45.461276]
+Pull message... info[quicksand,2015-11-16 16:40:46.082527]
+Pull message... info[quicksand,2015-11-16 16:41:46.749210]
+Pull message... info[quicksand,2015-11-16 16:42:51.756298]
+Pull message... info[quicksand,2015-11-16 16:43:54.372544]
+Pull message... info[quicksand,2015-11-16 16:44:58.207428]
+````
